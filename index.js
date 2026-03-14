@@ -56,10 +56,10 @@ function newGame() {
 
 function checkForLeader() {
     if (guestScore > homeScore) {
-            guestScoreEl.style.border = "2px solid white";
+            guestScoreEl.style.border = "4px solid white";
             homeScoreEl.style.border = "none";
         } else if (homeScore > guestScore) {
-            homeScoreEl.style.border ="2px solid white";
+            homeScoreEl.style.border ="4px solid white";
             guestScoreEl.style.border = "none";
         } else if (homeScore = guestScore) {
             homeScoreEl.style.border ="none";
