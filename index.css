@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'MyCustomFont'; /* Name you'll use in CSS */
+    src: url('fonts/CursedTimerUlil-Aznm.ttf') format('truetype'); /* Path to your .ttf file */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background-color: #065F46;
+    color: #ECFDF5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.score {
+    width: 155px;
+    height: 120px;
+    margin-top: 21px;
+    border: 1px solid black;
+    align-content: center;
+    text-align: center;
+    color: red;
+    background-color: black;
+    border-radius: 10px;
+    font-family: MyCustomFont, Arial, Helvetica, sans-serif;
+    font-size: 90px;
+}
+
+.btn {
+    width: 45px;
+    height: 45px;
+    margin-top: 26px;
+    font-family: MyCustomFont, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border: 2px solid #D1FAE5;
+    border-radius: 4px;
+    background-color: #065F46;
+    color: #D1FAE5;
+}
+
+#new-game-btn {
+    width: 150px;
+    height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: #ECFDF5;
+    color: black;
+}
